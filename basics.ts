@@ -27,3 +27,7 @@ let people: {
   name: string,
   age: number
 }[];
+
+// Type inference -> type is defined by the value alone
+
+let course = 'Typescript course'
