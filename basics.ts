@@ -36,3 +36,12 @@ let course = 'Typescript course'
 
 let example: string | number = 'This is example';
 example = 1;
+
+// Type aliases
+// making an object type definition
+type PuppyType = {
+  name: string,
+  age: number
+};
+
+let puppyVariable: PuppyType;
