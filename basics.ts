@@ -31,3 +31,8 @@ let people: {
 // Type inference -> type is defined by the value alone
 
 let course = 'Typescript course'
+
+// union types
+
+let example: string | number = 'This is example';
+example = 1;
